@@ -63,7 +63,7 @@ main{
 .proyecto1 a img,
 .proyecto2 a img,
 .proyecto3 a img,
-.proyecto4 a img {
+.proyecto4 a img{
   width: 15.625rem;
   border-radius: 1.25rem;
   box-shadow: 0rem 0rem .625rem white;
