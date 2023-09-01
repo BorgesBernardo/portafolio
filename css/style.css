@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body{
+  background-color: #1f2023;
+}
+
+main{
+  margin-bottom: 6.25rem;
+}
+
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 6.25rem;
+}
+
+.logo img{
+  width: 15.625rem;
+  max-width: 100%;
+  height: auto;
+}
+
+.redes_sociales{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1.25rem;
+  margin: 1.25rem 0rem 2.5rem 0rem;
+}
+
+.redes_sociales a img{
+  width: 3.125rem;
+}
+
+.contenedor_proyectos{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.proyecto1,
+.proyecto2,
+.proyecto3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.proyecto1 a img,
+.proyecto2 a img,
+.proyecto3 a img {
+  width: 15.625rem;
+  border-radius: 1.25rem;
+  box-shadow: 0rem 0rem .625rem white;
+}
+
+.proyecto1 h3,
+.prouecto2 h3,
+.proyecto3 h3{
+  color:#c5b8aa;
+  font-size: .9375rem;
+  font-family: roboto,sans-serif;
+  font-weight: 400;
+  margin-top: .625rem;
+  text-align: center;
+}
+
+.conoceme{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.25rem;
+  margin-bottom: .625rem;
+}
+
+.boton_conoceme{
+  padding: .625rem .625rem;
+  border-radius: .625rem;
+  font-size: 1.25rem;
+  font-family: roboto,sans-serif;
+  background-color:transparent;
+  font-weight: 800;
+  color:#c5b8aa;
+  border-color:#c5b8aa;
+  margin-bottom: .625rem;
+}
+
+/* CSS QUIEN SOY*/
+
+.portafolio{
+  margin: 1.25rem 1.25rem 1.875rem 1.25rem;
+}
+
+.portafolio button img{
+  width: .9375rem;
+}
+
+.portafolio button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .625rem;
+  padding: .625rem .625rem;
+  border-radius: .625rem;
+  font-size: 1.125rem;
+  font-family: roboto,sans-serif;
+  background-color:transparent;
+  font-weight: 800;
+  color:#c5b8aa;
+  border-color:#c5b8aa;
+}
+
+.foto_perfil{
+  width: 12.5rem;
+  display: block;
+  margin: 1.25rem auto 1.25rem auto;
+}
+
+body h1{
+  color: #c5b8aa;
+  text-align: center;
+}
+
+.texto{
+  margin: 1.25rem 0rem;
+  color: #c5b8aa;
+  text-align: center;
+  padding: 0rem 2.5rem;
+  font-size: 1.25rem;
+}
+
+strong{
+  text-decoration: underline;
+}
+
+.redes_sociales_footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1.25rem;
+  margin: 2.5rem 0rem;
+}
+
+.redes_sociales_footer a img{
+  width: 3.125rem;
+}
+
+.email{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: .625rem;
+  padding: 0rem .625rem;
+}
+
+.email img{
+  width: 3.125rem;
+}
+
+.email h3{
+  color: white;
+  font-size: .9375rem;
+}
+
+
+@media screen and (min-width: 768px){
+  .contenedor_proyectos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
