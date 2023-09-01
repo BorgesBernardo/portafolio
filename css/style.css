@@ -68,7 +68,7 @@ main{
 }
 
 .proyecto1 h3,
-.prouecto2 h3,
+.proyecto2 h3,
 .proyecto3 h3{
   color:#c5b8aa;
   font-size: .9375rem;
@@ -76,6 +76,10 @@ main{
   font-weight: 400;
   margin-top: .625rem;
   text-align: center;
+}
+
+span{
+  font-weight: 800;
 }
 
 .conoceme{
