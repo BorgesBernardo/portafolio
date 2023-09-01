@@ -58,6 +58,14 @@ main{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  transition: transform 0.8s;
+}
+
+.proyecto1:hover,
+.proyecto2:hover,
+.proyecto3:hover,
+.proyecto4:hover{
+  transform: scale(1.05);
 }
 
 .proyecto1 a img,
@@ -66,7 +74,7 @@ main{
 .proyecto4 a img{
   width: 15.625rem;
   border-radius: 1.25rem;
-  box-shadow: 0rem 0rem .625rem white;
+  box-shadow: 0rem 0rem .625rem #c5b8aa;
 }
 
 .proyecto1 h3,
@@ -80,6 +88,7 @@ main{
   margin-top: 0.625rem;
   text-align: center;
 }
+
 
 span{
   font-weight: 800;
@@ -104,6 +113,12 @@ span{
   color:#c5b8aa;
   border-color:#c5b8aa;
   margin-bottom: .625rem;
+  transition: transform 0.8s;
+}
+
+.boton_conoceme:hover{
+  transform: scale(1.05);
+  box-shadow: 0px 0px 15px #c5b8aa;
 }
 
 /* CSS QUIEN SOY*/
