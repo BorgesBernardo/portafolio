@@ -40,6 +40,11 @@ main{
 
 .redes_sociales a img{
   width: 3.125rem;
+  transition: transform 0.8s;
+}
+
+.redes_sociales img:hover{
+  transform: scale(1.1);
 }
 
 .contenedor_proyectos{
@@ -83,7 +88,7 @@ main{
 .proyecto4 h3{
   color:#c5b8aa;
   font-size: 0.9375rem;
-  font-family: roboto,sans-serif;
+  font-family: Roboto,sans-serif;
   font-weight: 400;
   margin-top: 0.625rem;
   text-align: center;
